@@ -1,0 +1,30 @@
+<ul>
+  <li>Root
+    <ul>
+      <li>Animal (lazy module)
+        <ul>
+          <li>Bird</li>
+          <li>Insect</li>
+          <li>Mammal</li>
+          <li>Single Cell (lazy module)
+            <ul>
+              <li>Bacteria</li>
+              <li>Virus</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Plant (lazy module)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<a [routerLink]="['/']">Root</a>
+<h1>
+  {{title}}
+</h1>
+<a [routerLink]="['/animal']">Animal</a>
+<a [routerLink]="['/plant']">Plant</a>
+<router-outlet></router-outlet>
