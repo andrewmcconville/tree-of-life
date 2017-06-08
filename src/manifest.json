@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"version": "0",
+	"version_name": "beta",
+
+	"name": "Tree of Life",
+	"short_name": "Tree of Life",
+	"dir": "ltr",
+	"lang": "en-US",
+	"default_locale": "en",
+	"description": "Angular Lazy Loading Modules Demo",
+	"author": "Andrew McConville",
+
+	"start_url": "/",
+	"theme_color": "#000000",
+	"background_color": "#FFFFFF",
+	"display": "standalone",
+	"orientation": "portrait-primary",
+	"icons": []
+}
